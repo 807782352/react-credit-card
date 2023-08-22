@@ -32,31 +32,33 @@ export default function CreditCardFront() {
                             <span className="card-number-display">_</span>
                         </div>
                         <div>
+
                             <span className="card-number-display">_</span>
                             <span className="card-number-display">_</span>
                             <span className="card-number-display">_</span>
                             <span className="card-number-display">_</span>
                         </div>
                     </div>
-                </div>
-                <div className="card-details">
-                    <div>
-                        <span>Card Holder</span>
-                        <span id='card-holder-name'>Your Name</span>
+                    <div className="card-details">
+                        <div>
+                            <span>Card Holder</span>
+                            <span id='card-holder-name'>Your Name</span>
+                        </div>
+                        <div>
+                            <span>Expiration Date</span>
+                            <span id='validity'>xx/xx</span>
+                        </div>
                     </div>
-                    <div>
-                        <span>Expiration Date</span>
-                        <span id='validity'>xx/xx</span>
-                    </div>
                 </div>
-                <div className="card-back">
+
+                {/* <div className="card-back">
                     <div className="black-strip"></div>
                     <div className="white-strip">
                         <span>CVV</span>
                         <div id="cvv-display"></div>
                     </div>
                     <img src={Visa} alt="Visa Logo" />
-                </div>
+                </div> */}
             </div>
         </div>
     )

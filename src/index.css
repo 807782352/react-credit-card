@@ -8,8 +8,9 @@
 /* CSS variables */
 :root {
     --bg-color: #a6c4e8;
-    --card-color: #fff;
-
+    --container-color: #fff;
+    --card-color: linear-gradient(#33a4f8, #206df9);
+    --number-color: #fff;
 }
 
 body {
@@ -19,5 +20,5 @@ body {
 .container {
     width: 100%;
     margin: auto;
-    border: 1px solid white;
+    border: 1px solid black;
 }
