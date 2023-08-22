@@ -2,8 +2,12 @@ import React from 'react'
 import Chip from '../../images/chip.png'
 import Visa from '../../images/visa.png'
 import './index.css'
+import Form from '../Form'
 
 export default function CreditCardFront() {
+
+
+
     return (
         <div className='credit-card'>
             <div className="container container__credit-card">
@@ -60,6 +64,7 @@ export default function CreditCardFront() {
                     <img className="visa-logo" src={Visa} alt="Visa Logo" />
                 </div>
             </div>
+            <Form />
         </div>
     )
 }
