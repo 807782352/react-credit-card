@@ -12,6 +12,8 @@
     width: 350px;
     height: 220px;
     margin: auto;
+    transform-style: preserve-3d;
+    transition: 0.5s ease;
 }
 
 .card-front, .card-back {
@@ -20,6 +22,8 @@
     height: inherit;
     background: var(--card-color);
     border-radius: 1rem;
+    perspective: 800px;
+    backface-visibility: hidden;
 }
 
 /* Front Card  */
@@ -69,6 +73,11 @@
 }
 
 /* Back Card*/
+.card-back {
+    transform: rotateY(180deg);
+    /* position: absolute; */
+}
+
 .card-back .black-strip{
     position: relative;
     background-color: var(--strip-color-black);
@@ -97,4 +106,14 @@
     width: 50px;
     margin-top: 4rem;
     right: 1rem;
+}
+
+
+/* form  */
+form {
+    margin-top: 2rem;
+}
+
+label, input {
+    display: block;
 }
