@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CSS variables */
+:root {
+    --bg-color: #a6c4e8;
+    --card-color: #fff;
+
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    border: 1px solid white;
+}

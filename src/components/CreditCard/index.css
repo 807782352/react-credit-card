@@ -1,0 +1,11 @@
+.credit-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--card-color);
+    padding: 3em;
+    border-radius: 1em;
+    perspective: 800px;
+}
+
