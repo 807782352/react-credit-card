@@ -51,14 +51,14 @@ export default function CreditCardFront() {
                     </div>
                 </div>
 
-                {/* <div className="card-back">
+                <div className="card-back">
                     <div className="black-strip"></div>
                     <div className="white-strip">
                         <span>CVV</span>
                         <div id="cvv-display"></div>
                     </div>
-                    <img src={Visa} alt="Visa Logo" />
-                </div> */}
+                    <img className="visa-logo" src={Visa} alt="Visa Logo" />
+                </div>
             </div>
         </div>
     )

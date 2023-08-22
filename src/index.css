@@ -11,6 +11,8 @@
     --container-color: #fff;
     --card-color: linear-gradient(#33a4f8, #206df9);
     --number-color: #fff;
+    --strip-color-black: #000;
+    --strip-color-white: #fff;
 }
 
 body {

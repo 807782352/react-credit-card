@@ -1,5 +1,5 @@
 .credit-card {
-    /* position: relative; */
+    position: relative;
     margin: 10% auto;
     width: 500px;
     background: var(--container-color);
@@ -22,6 +22,7 @@
     border-radius: 1rem;
 }
 
+/* Front Card  */
 .card-front{
     padding: 2rem 1rem;
 }
@@ -65,4 +66,35 @@
 
 .card-details #validity {
     text-align: right;
+}
+
+/* Back Card*/
+.card-back .black-strip{
+    position: relative;
+    background-color: var(--strip-color-black);
+    height: 50px;
+    top: 2rem;
+}
+
+.card-back .white-strip {
+    position: relative;
+    top: 3rem;
+    text-align: right;
+}
+
+.card-back .white-strip span{
+    margin-right: 1rem;
+}
+
+.card-back .white-strip #cvv-display{
+    height: 30px;
+    background-color: var(--strip-color-white);
+    margin-top: 0.5rem;
+}
+
+.card-back .visa-logo {
+    position: absolute;
+    width: 50px;
+    margin-top: 4rem;
+    right: 1rem;
 }
