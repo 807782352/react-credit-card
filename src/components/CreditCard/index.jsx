@@ -6,7 +6,7 @@ import Form from '../Form'
 
 export default function CreditCardFront() {
 
-
+    // Todo: 做父子数据传输功能
 
     return (
         <div className='credit-card'>
